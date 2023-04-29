@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+    <title>Document</title>
+    <script>  
+        $(function() {  
+          $( "#draggable, #draggable1,#draggable2, #draggable3, #draggable4" ).draggable();  
+        });  
+        </script>  
+</head>
+<body  >
+    <nav id="draggable">
+        <a href="./page.html">Home</a>
+        <a href="./about.html">Contact</a>
+        <a href="./service.html">Service</a>
+        <a href="./index.html">Logout</a>
+      </nav>
+      <h2 > Drag the boxes to create a meaningful forumla.</h3>
+      <div id="draggable1">
+        <p>8</p>
+      </div >
+      <div id="draggable2">
+        <p>=</p>
+      </div >
+      <div id="draggable3">
+        <p>7</p>
+      </div>
+      <div id="draggable4">
+        <p>15</p>
+      </div>
+      <h2 > Navigation is also draggable on this page.</h3>
+
+
+
+</body>
+</html>

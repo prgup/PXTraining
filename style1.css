@@ -1,0 +1,40 @@
+div{
+    width: 12.5%;
+    margin: 10px 10px;
+    /* border-style: double; */
+    border-radius: 100px;
+    padding: 25px 25px ;
+    /* box-sizing: border-box; */
+    border: 2px solid #cd871d;
+    border-width: 10px;
+    border-color: #cbd630;
+    height: 45px;
+    background-color: #16a432;
+    text-align: center;
+  
+  }
+
+h2 {
+    text-align: center;
+}
+
+  body 
+{
+  font-family:Arial; 
+  background: -webkit-linear-gradient(to right, #901599, #159957); 
+  background: linear-gradient(to right, #7f21b5, #159957); 
+  color:whitesmoke;
+
+  
+}
+
+
+nav {
+    /* width: 100%;
+    margin: 10px 0; */
+    /* border-radius: 5px; */
+    padding: 15px 18px;
+    box-sizing: border-box; 
+    align-items: center;
+    text-align: center;
+  }

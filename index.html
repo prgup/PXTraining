@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script  src="login.js"></script>
+
+    <title>PX Project</title>
+</head>
+<body>
+    <h1>Login form using HTML and CSS</h1>
+    <form action="page.html" onSubmit="return(validateData())">
+        <div class="headingsContainer">
+            <h3>Sign in</h3>
+            <p>Sign in with your username and password</p>
+        </div>
+
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Your username</label>
+            <!-- Make sure to put "required" for both the input fields -->
+            <input type="text" placeholder="Enter Username" name="username" id="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" id="pswrd" required>
+            <br>
+
+            <button type="submit"> Login</button>
+
+            <p class="register">Not a member?  <a href="password.html">Register here!</a></p>
+
+
+        </div>
+    </form>
+    <!-- <script src="login.js"></script> -->
+
+    
+</body>
+</html>
